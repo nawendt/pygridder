@@ -3,11 +3,13 @@
 """Test mapping points, lines, and polygons to a grid."""
 
 import json
-import numpy as np
 from pathlib import Path
-from pygridder import Gridder
+
+import numpy as np
 import pyproj
 import pytest
+
+from pygridder import Gridder
 
 
 @pytest.fixture(scope='class')
@@ -53,6 +55,7 @@ def path_data():
     with open(_path) as data:
         paths = json.load(data)
     return paths
+
 
 @pytest.fixture(scope='class')
 def area_data():
