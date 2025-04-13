@@ -1,5 +1,5 @@
 # pygridder
-Package to grid point, line, or polygon data
+Package to grid point, line, or polygon data.
 
 
 ### Dependencies
